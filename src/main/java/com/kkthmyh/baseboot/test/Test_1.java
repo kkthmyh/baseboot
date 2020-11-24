@@ -18,4 +18,6 @@ public class Test_1{
         redisTemplate.opsForValue().set("myKey","myValue");
         System.out.println(redisTemplate.opsForValue().get("myKey"));
     }
+
+    // 这是分支
 }
